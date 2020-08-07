@@ -1,0 +1,47 @@
+{
+    "name": "LearnGulp",
+    "version": "1.0.0",
+    "description": "",
+    "repository": "https://github.com/sim0417/my_gulp_study",
+    "scripts": {
+        "dev": "gulp dev",
+        "build": "gulp build",
+        "deploy": "gulp deploy"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "gulp": "^4.0.2",
+        "@babel/core": "^7.10.5",
+        "@babel/preset-env": "^7.10.4",
+        "@babel/register": "^7.10.5"
+    },
+    "dependencies": {
+        "babelify": "^10.0.0",
+        "del": "^5.1.0",
+        "delete": "^1.1.0",
+        "gift": "^0.10.2",
+        "gitf": "^0.1.0",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-bro": "^2.0.0",
+        "gulp-csso": "^4.0.1",
+        "gulp-gh-pages": "^0.5.4",
+        "gulp-image": "^6.2.1",
+        "gulp-pug": "^4.0.1",
+        "gulp-sass": "^4.1.0",
+        "gulp-webserver": "^0.9.1",
+        "lodash.template": "^4.5.0",
+        "node-sass": "^4.14.1",
+        "open": "^7.1.0",
+        "qs": "^6.9.4",
+        "uglifyify": "^5.0.2"
+    },
+    "browserslist": [
+        "defaults",
+        "not IE 11",
+        "not IE_Mob 11",
+        "maintained node versions",
+        "last 2 versions"
+    ]
+}
